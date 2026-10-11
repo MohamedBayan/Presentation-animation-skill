@@ -1,0 +1,15 @@
+{
+ "short_title": "TinyQA",
+ "title": "TinyQA: A Compact Benchmark for Fine-Grained Question Answering",
+ "authors": "First Author, Second Author, Third Author",
+ "affiliations": ["Example University", "Example Research Lab"],
+ "venue": "ACL 2026",
+ "co_located": "",
+ "language": "en",
+ "palette": {"primary": "#0088C8", "ink": "#181050", "accent": "#58C0E8", "paper": "#F6F4EE", "bad": "#C0283D", "good": "#1E8576"},
+ "sections": [{"from": 1, "name": "Introduction"}, {"from": 3, "name": "Dataset"}, {"from": 6, "name": "Experiments"}, {"from": 9, "name": "Conclusion"}],
+ "logos": {"top_left": ["logos/university.png"], "top_right": ["logos/lab.png"], "bottom": ["logos/conference.png"]},
+ "content_warning": "",
+ "content_warning_at": "",
+ "output_name": "TinyQA_ACL2026"
+}

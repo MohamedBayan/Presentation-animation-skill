@@ -1,0 +1,17 @@
+{
+ "defaults": {"lead_in": 0.25, "tail": 0.35, "speech_thr": -32, "gap_thr": -50,
+              "gap_sentence": 0.42, "gap_comma": 0.28, "gap_word": 0.18, "snap": 0.1, "xfade": 0.012},
+ "recordings": {
+  "rec02": {"remove": [
+   {"start": 18.4, "end": 21.1, "reason": "FALSE START: 'Existing datasets are' (18.6-19.9) removed; full take 'Existing datasets are small and coarse-grained.' (21.2-24.0) kept"}
+  ]},
+  "rec04": {"remove": [
+   {"start": 5.7, "end": 8.6, "reason": "RETAKE: 'We collected 12000 que-' (5.8-7.9) removed; restart 'We collected 12,000 questions from four forums' (8.7-) kept"},
+   {"start": 16.2, "end": 18.5, "reason": "DEAD AIR: 2.8 s mid-sentence silence while reading notes, shortened to the pause cap"}
+  ]},
+  "rec07": {"remove": [
+   {"start": 30.9, "end": 33.4, "reason": "SELF-CORRECTION: 'We report micro F1' removed; 'We report macro-F1 as the main metric' (33.5-36.0) kept"},
+   {"start": 41.02, "end": 41.6, "reason": "REPEAT: second 'the model' removed at the -38 dB dip between the words (FLAG: cut inside continuous speech, please listen)"}
+  ]}
+ }
+}

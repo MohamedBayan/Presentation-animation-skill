@@ -1,0 +1,6 @@
+[
+ ["tiny QA", "TinyQA"],
+ ["inter-anator agreement", "inter-annotator agreement"],
+ ["micro F1", "macro-F1"],
+ ["12000", "12,000"]
+]
